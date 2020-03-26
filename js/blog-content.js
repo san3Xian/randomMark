@@ -41,7 +41,7 @@
      var post_url_ele = jQuery("<a></a>").attr("href", url).attr("target", "_blank");
      jQuery(post_url_ele).append(post_title_ele).append(post_subtitle_ele).append(post_content_preview_ele);
 
-     var post_meta_ele = jQuery("<p></p>").addClass("post-meta").css("margin","10px 0").text("Posted by " + author + " on " + time);
+     var post_meta_ele = jQuery("<p></p>").addClass("post-meta").css("margin","10px 0").text("Posted by " + author + " on " + time + "(UTC)");
 
      //todo tag element
 
